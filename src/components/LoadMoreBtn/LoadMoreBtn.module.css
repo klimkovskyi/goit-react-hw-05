@@ -1,0 +1,22 @@
+.btn {
+  background-color: rgba(24, 0, 56, 0.726);
+
+  display: block;
+  margin: 15px auto;
+
+  padding: 10px 20px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  color: whitesmoke;
+  transition: border-color 0.3s ease, background-color 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &:hover,
+  &:focus {
+    outline: none;
+    color: gold;
+    box-shadow: 0px 0px 10px 0px gold;
+    background-color: rgba(24, 0, 56, 0.932);
+    border: 2px solid gold;
+  }
+}
